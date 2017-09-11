@@ -1,0 +1,3 @@
+$(() => {
+    alert('Its working!');
+});
