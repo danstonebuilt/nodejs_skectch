@@ -28,7 +28,3 @@ app.get('/homepage', (req, res) => {
     res.sendFile(__dirname+'/main.html');
 });
 
-app.listen(5000, () => {
-    
-    console.log('Server is on!');
-});
