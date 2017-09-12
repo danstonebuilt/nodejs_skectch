@@ -6,6 +6,7 @@ var baseController = require('./controllers/baseController');
 
 /*Set up things*/
 app.use(express.static('./public')); /*Static files*/
+app.use(express.static('./scripts')); /*Static files*/
 /*****************************************************/
 
 baseController(app);

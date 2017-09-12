@@ -1,6 +1,6 @@
 
 const settings = require("../settings");
-var slash = require('slash');
+var slash = require('slash');//Convert backslash to forwardslash
 
 module.exports = function(app) {
     
@@ -17,7 +17,7 @@ module.exports = function(app) {
         res.sendFile(slash(settings.PROJECT_DIR)+'/views/main.html');
     });
     
-    app.delete('/home', (req, res)=>{
+    app.delete('/any', (req, res)=>{
         
     });
 };
