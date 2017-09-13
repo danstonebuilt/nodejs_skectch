@@ -13,5 +13,14 @@
     "express": "^4.15.4",
     "jquery": "^3.2.1",
     "slash": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danstonebuilt/nodejs_skectch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danstonebuilt/nodejs_skectch/issues"
+  },
+  "homepage": "https://github.com/danstonebuilt/nodejs_skectch#readme"
 }
